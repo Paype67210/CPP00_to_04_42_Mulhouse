@@ -6,7 +6,7 @@
 /*   By: pdeson <pdeson@student.42mulhouse.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/19 11:00:54 by pdeson            #+#    #+#             */
-/*   Updated: 2024/08/19 12:20:03 by pdeson           ###   ########.fr       */
+/*   Updated: 2024/11/05 14:31:16 by pdeson           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ public:
     Animal(std::string type);
     
     /* Destructors */
-    ~Animal();
+    virtual ~Animal();
     
     /* Oprators */
     Animal& operator=(const Animal &other);
@@ -39,7 +39,7 @@ public:
     void setType(std::string type);
     
     /* Member Functions */
-    void makeSound() const;
+    virtual void makeSound() const;
 
 protected:
     // Membres privés

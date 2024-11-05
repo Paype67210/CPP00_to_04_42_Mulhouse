@@ -6,7 +6,7 @@
 /*   By: pdeson <pdeson@student.42mulhouse.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/19 11:57:48 by pdeson            #+#    #+#             */
-/*   Updated: 2024/08/19 12:00:26 by pdeson           ###   ########.fr       */
+/*   Updated: 2024/11/05 14:29:10 by pdeson           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include "Animal.hpp"
 
-class Cat : public Animal {
+class Cat : virtual public Animal {
 public:
     /* Constructors */
     Cat();

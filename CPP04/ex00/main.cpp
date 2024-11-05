@@ -6,7 +6,7 @@
 /*   By: pdeson <pdeson@student.42mulhouse.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/19 11:21:52 by pdeson            #+#    #+#             */
-/*   Updated: 2024/08/19 12:26:12 by pdeson           ###   ########.fr       */
+/*   Updated: 2024/11/05 14:31:33 by pdeson           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@
 int main(void) {
     std::cout << YELLOW400 << "--- Creation of the Animal Class ---" << std::endl << std::endl;
     const Animal *Strange = new Animal();
-    const Cat *Garfield = new Cat();
-    const Dog *Phoebus = new Dog();
+    const Animal *Garfield = new Cat();
+    const Animal *Phoebus = new Dog();
     const WrongAnimal *WrongStrange = new WrongAnimal();
     const WrongCat *WrongGarfield = new WrongCat();    
     

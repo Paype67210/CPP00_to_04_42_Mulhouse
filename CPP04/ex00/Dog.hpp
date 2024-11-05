@@ -6,7 +6,7 @@
 /*   By: pdeson <pdeson@student.42mulhouse.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/19 11:57:48 by pdeson            #+#    #+#             */
-/*   Updated: 2024/08/19 12:14:14 by pdeson           ###   ########.fr       */
+/*   Updated: 2024/11/05 14:29:20 by pdeson           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include "Animal.hpp"
 
-class Dog : public Animal {
+class Dog : virtual public Animal {
 public:
     /* Constructors */
     Dog();
